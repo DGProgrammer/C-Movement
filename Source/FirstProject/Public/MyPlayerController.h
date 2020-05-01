@@ -19,6 +19,11 @@ class FIRSTPROJECT_API AMyPlayerController : public APlayerController
 public:
 	AMyPlayerController();
 	void Press1();
+	void Press2();
+	void Press3();
+	void Press4();
+	void Press5();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
